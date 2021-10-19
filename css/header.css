@@ -1,0 +1,20 @@
+#header{
+    background-color: #5BA4A4;
+}
+#header-bg{
+    width: 100vw;
+}
+
+#header-bg-mobile{
+    display: none;
+}
+
+@media (max-width:580px) {
+    #header-bg{
+        display: none;
+    }
+    #header-bg-mobile{
+        width: 100vw;
+        display: block;
+    }
+}
